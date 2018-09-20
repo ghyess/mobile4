@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*    컨텐츠 영역    */
+.page {
+    width: 100%;
+    height: 800px;
+    clear: both;
+    position: relative;
+    background: #FAFAFA;
+}
+
+.page .boxWrap {
+    width: 100%;
+    height: 220px;
+    position: absolute;
+}
+.page #top {
+    top: 5%;
+    left: 0;
+}
+.page #bottom {
+    width: 384px;
+    right: 0;
+    bottom: 2%;
+}
+
+.page .boxinner {
+    position: absolute;
+    top: 37%;
+    left: 0;
+}
+
+/*    퀵메뉴 버튼    */
+.quick_link {
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+.quick_link .notice {
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00aeef;
+}
+.quick_link .notice a {
+    color: #001f50;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3.8;
+    text-indent: 8%;
+}
+.quick_link .notice a::before {
+    content: '';
+    width: 42px;
+    height: 38px;
+    background-image: url(img/ico1.png);
+    background-size: 100%;
+    display: block;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+
+.quick_link .preview {
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #001f50;
+}
+.quick_link .preview a {
+    color: #00aeef;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3.8;
+    text-indent: 7%;
+}
+.quick_link .preview a::before {
+    content: '';
+    width: 31px;
+    height: 34px;
+    background-image: url(img/ico2.png);
+    background-size: 100%;
+    display: block;
+    position: absolute;
+    top: 18%;
+    left: 10%;
+}
+
+/*    사이트맵    */
+#sitemap {
+    background: #222433;
+    height: 700px;
+}
+#sitemap .sm_wrap {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 28% 10px 0 10px;
+}
+#sitemap .dep1 {
+    width: 120px;
+    height: auto;
+    float: left;
+    margin: 5px;
+}
+#sitemap .dep1>h3 {
+    color: #fff;
+    font-size: 1em;
+    margin: 10% 0 10% 0;
+}
+#sitemap .dep2 {
+    margin-top: 5%;
+}
+#sitemap .dep2 li a {
+    color: #c8c8c8;
+    font-size: .8em;
+    line-height: 24px;
+    margin-left: 5px;
+}

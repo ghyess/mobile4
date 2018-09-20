@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>대한민국 청와대</title>
+         <meta name="viewport" content = "width=device-width, initial-scale=1.0, user-scalable=no">
+<!--  파비콘 세팅      -->
+    <link rel="icon" type="image/png" href="ico/favicon-196x196.png" sizes="16x16">
+<!--      메타포 아이콘       -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<!--     폰트 링크   -->
+   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+<!--  css 연결 링크 -->
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="hd.css">
+    <link rel="stylesheet" href="visual.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="ft.css">
+    
+<!--    자바스크립트 연결링크    -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="slider.js"></script>
+    <script src="main.js"></script>
+    
+</head>
+<body>
+    <div class="pagewrap">
+        <header id="hd">
+            <nav id="hdcon">
+                <a href="" class="map"></a>
+                <a href="" class="logo"><img src="./img/logo.png" alt=""></a>
+                <label id="gnb_bt"><i class="fas fa-bars"></i></label>
+            </nav>
+        </header>
+        <nav id="gnb">
+               <div class="gnb_hd">
+                   <h3></h3>
+                   <label for="" id="search"><i class="fas fa-search"></i></label>
+                   <label for="" id="close"><i class="fas fa-times"></i></label>
+               </div>
+                <ul class="menu">
+                    <li>
+                        <a>문재인 대통령</a>
+                        <ul class="submenu">
+                            <li><a href="">공개일정</a></li>
+                            <li><a href="">걸어온 길</a></li>
+                            <li><a href="">대통령의 말과 글</a></li>
+                            <li><a href="">김정숙의 말과 글</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>청와대 뉴스룸</a>
+                        <ul class="submenu">
+                            <li><a href="">청와대 온에어</a></li>
+                            <li><a href="">청와대 브리핑</a></li>
+                            <li><a href="">해외언론보도</a></li>
+                            <li><a href="">청와대 이야기</a></li>
+                            <li><a href="">오늘의 한 장</a></li>
+                            <li><a href="">숫자로 읽는 우리 경제</a></li>
+                            <li><a href="">청와대 일기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>정책자료</a>
+                        <ul class="submenu">
+                            <li><a href="">정책현안</a></li>
+                            <li><a href="">정책브리핑</a></li>
+                            <li><a href="">국정과제</a></li>
+                            <li><a href="">2018년 정부부처 업무보고</a></li>
+                            <li><a href="">숫자로 보는 정책</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>국민소통 광장</a>
+                        <ul class="submenu">
+                            <li><a href="">문재인 대통령 1주년</a></li>
+                            <li><a href="">국민 개헌안</a></li>
+                            <li><a href="">토론방</a></li>
+                            <li><a href="">국민청원 및 제안</a></li>
+                            <li><a href="">국민 신문고</a></li>
+                            <li><a href="">국민참여예산</a></li>
+                            <li><a href="">인재추천</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>청와대 알림</a>
+                        <ul class="submenu">
+                            <li><a href="">정보공개</a></li>
+                            <li><a href="">일자리 상황판</a></li>
+                            <li><a href="">청와대 조직도</a></li>
+                            <li><a href="">세입·세출예산 운용상황</a></li>
+                            <li><a href="">고위공직 예비후보자 사전 질문서</a></li>
+                            <li><a href="">청와대 기록관</a></li>
+                            <li><a href="">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">청와대 관람 신청</a>
+                    </li>
+                </ul>
+            </nav>
+        <div class="gnb_bg"></div>
+        <figure id="vs">
+            <ul class="imgBox">
+                <li class="imgFrame" data-value="0">
+                    <img src="./img/main1.jpg" alt="">
+                    <div class="vsTB">
+                        <h3 class="vsTit">남북정상회담 준비위원회<br>1차 회의 개최</h3>
+                        <p class="vsCom">청와대 브리핑</p>
+                    </div>
+                </li>
+                <li class="imgFrame" data-value="1">
+                    <img src="img/main2.jpg" alt="">
+                    <div class="vsTB">
+                        <h3 class="vsTit">특사단, 친서를 전달하고<br>돌아왔습니다</h3>
+                        <p class="vsCom">청와대 브리핑</p>
+                    </div>
+                </li>
+                <li class="imgFrame" data-value="2">
+                    <img src="img/main3.jpg" alt="">
+                    <div class="vsTB">
+                        <h3 class="vsTit">대한민국 국민생활 soc 현장을<br>찾았습니다</h3>
+                        <p class="vsCom">대통령의 말과 글</p>
+                    </div>
+                </li>
+                <li class="imgFrame" data-value="3">
+                    <img src="img/main4.jpg" alt="">
+                    <div class="vsTB">
+                        <h3 class="vsTit">수석보좌관회의 모두발언</h3>
+                        <p class="vsCom">대통령의 말과 글</p>
+                    </div>
+                </li>
+                <li class="imgFrame" data-value="4">
+                    <img src="img/main5.jpg" alt="">
+                    <div class="vsTB">
+                        <h3 class="vsTit">데이터경제 활성화 규제혁신 현장방문<br>관련 서면 브리핑</h3>
+                        <p class="vsCom">청와대 브리핑</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="btn_box" id="main">
+                <label for="" data-value="0" class="f_btn on"></label>
+                <label for="" data-value="1" class="f_btn"></label>
+                <label for="" data-value="2" class="f_btn"></label>
+                <label for="" data-value="3" class="f_btn"></label>
+                <label for="" data-value="4" class="f_btn"></label>
+            </ul>
+        </figure>
+        <figure id="vs_sec">
+         <div class="sec_titBox"><h2>청와대 온에어</h2></div>
+           <div class="btnwrap">
+               <label for="" id="prev"></label>
+               <label for="" id="next"></label>
+           </div>
+            <ul class="img_Box">
+                <li class="img_Frame" data-value="0">
+                    <img src="./img/middle1.png" alt="">
+                    <div class="sec_txtBox">
+                        <h3 class="sec_tit">「사무실에 왜 이런게 있죠?」<br>안물안궁 2화</h3>
+                        <p class="sec_com">7월부터 청와대에서 전면금지된 일회용 컵과 비닐봉지 사용! 과연 잘 지켜지고 있는지 '안물안궁 청와대' 가 기습점검에 나섰습니다.</p>
+                    </div>
+                </li>
+                <li class="img_Frame" data-value="1">
+                    <img src="img/middle2.png" alt="">
+                    <div class="sec_txtBox">
+                        <h3 class="sec_tit">9월 14일 「11:30 청와대입니다」 <br>9.13부동산대책 정리드립니다</h3>
+                        <p class="sec_com">
+							9월 13일, 정비된 부동산 대책을 11:30 청와대 LIVE에서 정리해드립니다.
+						</p>
+                    </div>
+                </li>
+                <li class="img_Frame" data-value="2">
+                    <img src="img/middle3.png" alt="">
+                    <div class="sec_txtBox">
+                        <h3 class="sec_tit">「국민의 진심을 듣다」<br>발달장애인과 가족, 함께 희망을 말하다</h3>
+                        <p class="sec_com">
+							“전쟁 같은 하루하루, 투쟁의 기록입니다” “아이보다 하루 늦게 죽는 것이 소원이었습니다”  우리나라 발달장애인 수는 22만 6천 명(2018년 기준). 대부분 어린 시기에 시작해 평생 동안 지속되는 발달장애는  다른...
+						</p>
+                    </div>
+                </li>
+                <li class="img_Frame" data-value="3">
+                    <img src="img/middle4.png" alt="">
+                    <div class="sec_txtBox">
+                        <h3 class="sec_tit">「국민청원에 답합니다」<br>‘어린이집 아동학대 가해자 처벌 강화’</h3>
+                        <p class="sec_com">
+							〈정혜승 디지털소통센터장〉  지난 2007년이었습니다. 울산의 한 어린이집에서 23개월 아이가 원장 부부의 학대로 사망한 사건이 있었습니다. 여기에 대해서 처벌을 대폭 강화해달라 이런 청원이데요, 오늘 답변을...
+						</p>
+                    </div>
+                </li>
+                <li class="img_Frame" data-value="4">
+                    <img src="img/middle5.png" alt="">
+                    <div class="sec_txtBox">
+                        <h3 class="sec_tit">9월 11일 「11:30 청와대입니다」 <br>청와대 사랑채 전시회 ‘평화, 새로운 시작’ <br>오늘 개막합니다</h3>
+                        <p class="sec_com">
+							-조코위 인도네시아 대통령 국빈방문 첫 날, 함께 쇼핑하며 신남방정책 파트너로서의 우정을 다졌습니다 -청와대 사랑채 전시회 ‘평화, 새로운 시작’ 오늘 개막합니다. 도보다리 회담의 감동, 직접 느껴보세요 
+						</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="btn_box" id="sec_bb">
+                <label for="" class="sbtn on" data-value="0"></label>
+                <label for="" class="sbtn" data-value="1"></label>
+                <label for="" class="sbtn" data-value="2"></label>
+                <label for="" class="sbtn" data-value="3"></label>
+                <label for="" class="sbtn" data-value="4"></label>
+            </ul>
+        </figure>
+        <section class="page" id="page1">
+            <div class="boxWrap" id="top">
+                <img src="img/box1.png" alt="">
+            </div>
+            <div class="boxinner">
+                <img src="./img/main_comu.jpg" alt="" class="box_vs">
+            </div>
+            <div class="boxWrap" id="bottom">
+                    <img src="img/box2.png" alt="">
+            </div>
+        </section>
+        <section class="quick_link">
+            <div class="notice">
+                <a href="">청와대 알림</a>
+            </div>
+            <div class="preview">
+                <a href="">청와대 관람신청</a>
+            </div>
+        </section>
+        <section class="page" id="sitemap">
+            <div class="sm_wrap">
+                <ul>
+                    <li class="dep1">
+                        <h3>문재인 대통령</h3>
+                        <ul class="dep2">
+                            <li><a href="">공개일정</a></li>
+                            <li><a href="">걸어온길</a></li>
+                            <li><a href="">대통령의 말과 글</a></li>
+                            <li><a href="">김정숙의 말과 글</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1">
+                        <h3>청와대 뉴스룸</h3>
+                        <ul class="dep2">
+                            <li><a href="">청와대 온에어</a></li>
+                            <li><a href="">청와대 브리핑</a></li>
+                            <li><a href="">해외언론보도</a></li>
+                            <li><a href="">청와대 이야기</a></li>
+                            <li><a href="">청와대 일기</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1">
+                        <h3>정책자료</h3>
+                        <ul class="dep2">
+                            <li><a href="">정책현안</a></li>
+                            <li><a href="">정책 브리핑</a></li>
+                            <li><a href="">국정과제</a></li>
+                            <li><a href="">2018년 정부부처<br>업무보고</a></li>
+                            <li><a href="">숫자로 보는 정책</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1">
+                        <h3>국민소통 광장</h3>
+                        <ul class="dep2">
+                            <li><a href="">문재인 대통령 1주년</a></li>
+                            <li><a href="">국민 개헌안</a></li>
+                            <li><a href="">토론방</a></li>
+                            <li><a href="">국민청원 및 제안</a></li>
+                            <li><a href="">국민신문고</a></li>
+                            <li><a href="">국민참여예산</a></li>
+                            <li><a href="">인재추천</a></li>
+                            <li><a href="">효자동사진관</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1">
+                        <h3>청와대 알림</h3>
+                        <ul class="dep2">
+                            <li><a href="">정보공개</a></li>
+                            <li><a href="">일자리 상황판</a></li>
+                            <li><a href="">청와대 조직도</a></li>
+                            <li><a href="">세입·세출예산<br>운용상황</a></li>
+                            <li><a href="">고위공직 예비후보자 사전 질문서</a></li>
+                            <li><a href="">청와대 기록관</a></li>
+                            <li><a href="">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1">
+                        <h3>관람신청</h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer id="ft">
+            <div id="snsBox">
+               <div class="sns_inner">
+                <a href="" class="sns"><i class="fab fa-facebook-square"></i></a>
+                <a href="" class="sns"><i class="fab fa-blogger"></i></a>
+                <a href="" class="sns"><i class="fab fa-twitter-square"></i></a>
+                <a href="" class="sns"><i class="fab fa-instagram"></i></a>
+                <a href="" class="sns"><i class="fab fa-youtube"></i></a>
+               </div>
+            </div>
+            <div class="address">
+                <h3>CONTACT INFO</h3>
+                <p><i class="fas fa-phone-volume"></i>(+82) 02-730-5800</p>
+                <p><i class="fas fa-envelope"></i>담당자 메일 : 메일보내기</p>
+                <p><i class="fas fa-map-marker-alt"></i>03048 서울특별시 종로구 청와대로 1 대통령 비서실</p>
+            </div>
+            <nav id="fnb">
+                <ul>
+                    <li><a href="">개인정보처리방침</a></li>
+                    <li><a href="">저작권 정책</a></li>
+                    <li><a href="">사이트맵</a></li>
+                    <li><a href="">오시는 길</a></li>
+                </ul>
+            </nav>
+            <div class="ps">
+                <p>해당 메일은 기능 장애 등 홈페이지 관련 문의만 접수합니다.</p>
+                <a href="https://www.epeople.go.kr/">청와대 및 정부에 대한 민원·제안 및 공익신고·고발 등은 국민신문고(www.epeople.go.kr)로 접수해주시길 부탁드립니다.</a>
+                <img src="./img/footer_mark.png" alt="">
+            </div>
+            <div class="copy">© Office of the President. All rights reserved.</div>
+        </footer>
+    </div>
+</body>
+</html>
